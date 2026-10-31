@@ -129,3 +129,4 @@ time_ms,pos_x,cnt
 ## 通用注意事项
 
 - 依赖的 spdlog 若为系统 apt 版，CMake 里需用 `spdlog::spdlog` 现代 target（本包已处理）。
+- 如有问题，联系渡渡鸟/QuincyFrancis进行修改
