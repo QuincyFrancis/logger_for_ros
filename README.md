@@ -1,5 +1,7 @@
-Run the following command in your terminal to test:
+## Run the following command in terminal to test
+```bash
 colcon build
-install/setup.bash
+source install/setup.bash
 ros2 run demo logger_demo
-ros2 run demo_recorder_demo
+ros2 run demo recorder_demo
+```

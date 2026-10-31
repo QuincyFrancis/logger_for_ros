@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
     rec->data["idx"]   = i;
     rec->push();
 
-    if (++i >= 10000) {   // 200 拍（2 秒）后退出
+    if (++i >= 200) {   // 200 拍（2 秒）后退出
       rclcpp::shutdown();
     }
   });
